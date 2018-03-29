@@ -9,7 +9,7 @@ Schema Inspector for Mocha Chai
 
 
 # Sample use 
-```ECMAscript 6
+```Javascript
     const chakram = require('chakram');
     const expect = chakram.expect;
     const schema_expector = require('schema-expector');
