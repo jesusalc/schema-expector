@@ -2,13 +2,14 @@
 Schema Inspector for Mocha Chai
 
   
-```
-$ npm install schema-expector --save-dev
-$ npm test
+```Javascript
+    npm install schema-expector --save-dev
+    npm test
 ```
 
 
 # Sample use 
+```Javascript
     const chakram = require('chakram');
     const expect = chakram.expect;
     const schema_expector = require('schema-expector');
@@ -37,3 +38,4 @@ $ npm test
         order:      {type: 'number', required: true}
     }];
     schema_expector(upload_response_schema, expect, body);
+```
