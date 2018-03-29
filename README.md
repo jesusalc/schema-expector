@@ -2,7 +2,7 @@
 Schema Inspector for Mocha Chai
 
   
-```Javascript
+```Shell
     npm install schema-expector --save-dev
     npm test
 ```
